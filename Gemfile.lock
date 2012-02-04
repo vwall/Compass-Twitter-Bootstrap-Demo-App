@@ -1,10 +1,3 @@
-GIT
-  remote: git://github.com/vwall/compass-twitter-bootstrap.git
-  revision: 3e2434603edcbb7559c92c83565bac6ca2500890
-  specs:
-    compass_twitter_bootstrap (0.1.8)
-      compass
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -51,6 +44,8 @@ GEM
       sass (~> 3.1)
     compass-rails (1.0.0.rc.2)
       compass (~> 0.12.rc.0)
+    compass_twitter_bootstrap (2.0.0)
+      compass
     erubis (2.7.0)
     execjs (1.3.0)
       multi_json (~> 1.0)
@@ -128,7 +123,7 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
   compass-rails (>= 1.0.0.rc.1)
-  compass_twitter_bootstrap!
+  compass_twitter_bootstrap
   jquery-rails
   rails (= 3.2.1)
   sass-rails (~> 3.2.3)
