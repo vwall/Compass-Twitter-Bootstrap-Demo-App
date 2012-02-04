@@ -2,11 +2,10 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.1'
 
+
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
-gem 'simple_form', '>= 2.0.0.rc'
 gem 'slim-rails',  '~> 1.0.2'
 
 # Gems used only for assets and not required
