@@ -9,12 +9,12 @@ gem 'rails', '3.2.1'
 gem 'slim-rails',  '~> 1.0.2'
 
 # Gems used only for assets and not required
-# in production environments by default.
+# in productionvironments by default.
 group :assets do
   gem 'sass-rails',    '~> 3.2.3'
   gem 'coffee-rails',  '~> 3.2.1'
   gem 'compass-rails', '>= 1.0.0.rc.1'
-  gem 'compass_twitter_bootstrap'
+  gem 'compass_twitter_bootstrap', '2.0.1.1'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer'
