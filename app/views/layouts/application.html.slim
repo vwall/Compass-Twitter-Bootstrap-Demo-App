@@ -4,7 +4,7 @@ html
     title Compass Twitter Bootstrap Demo
     meta name="keywords" content="template language"
 
-    = stylesheet_link_tag "application"
+    = stylesheet_link_tag "application", :media => "all"
     = javascript_include_tag "application"
     = csrf_meta_tag
     javascript:
@@ -17,7 +17,7 @@ html
         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
-   
+
   body
     = render 'layouts/nav'
     div class="container"
